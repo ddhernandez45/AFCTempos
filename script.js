@@ -1,3 +1,4 @@
+// Array of songs
 const songs = [
    {
       title: "When I Speak Your Name",
@@ -169,7 +170,7 @@ const songs = [
       bpm: 148,
       timeSignature: "4/4"
    },
-     {
+   {
       title: "We Rise",
       bpm: 132,
       timeSignature: "4/4"
@@ -546,7 +547,7 @@ const songs = [
    },
    {
       title: "Mercy Seat",
-      bpm: , // Add BPM here if available
+      bpm: "", // Add BPM here if available
       timeSignature: "4/4"
    },
    {
@@ -561,7 +562,7 @@ const songs = [
    },
    {
       title: "Ancient Of Days",
-      bpm: , // Add BPM here if available
+      bpm: "", // Add BPM here if available
       timeSignature: "" // Add time signature here if available
    },
    {
@@ -791,7 +792,7 @@ const songs = [
    },
    {
       title: "Mercy Seat",
-      bpm: , // Add BPM here if available
+      bpm: "", // Add BPM here if available
       timeSignature: ""
    },
    {
@@ -918,35 +919,20 @@ const songs = [
    // Add more songs in the same format here
 ];
 
-
+// DOM elements
 const searchBar = document.getElementById("searchBar");
 const songList = document.getElementById("songList");
 const songDetails = document.getElementById("songDetails");
 
+// Display songs based on search
 function displaySongs() {
    songList.innerHTML = "";
    const searchTerm = searchBar.value.toLowerCase();
    songs.forEach(song => {
       if (
-         song.title.toLowerCase().includes(searchTerm) ||
+         song.title.toLowerCase().includes(searchTerm)
          song.bpm.toString().includes(searchTerm)
-      ) {
-         const li = document.createElement("li");
-         li.textContent = song.title;
-         li.addEventListener("click", () => displaySongDetails(song));
-         songList.appendChild(li);
-      }
-   });
-}
-
-function displaySongs() {
-   songList.innerHTML = "";
-   const searchTerm = searchBar.value.toLowerCase();
-   songs.forEach(song => {
-      if (
-         song.title.toLowerCase().includes(searchTerm) ||
-         song.bpm.toString().includes(searchTerm)
-      ) {
+     ) {
          const container = document.createElement("div");
          container.classList.add("song-container");
 
@@ -963,10 +949,10 @@ function displaySongs() {
          songList.appendChild(container);
       }
    });
-}
 
+
+// Display selected song details
 function displaySongDetails(song) {
-   const songDetails = document.getElementById("songDetails");
    songDetails.innerHTML = `
       <h2>${song.title}</h2>
       <p>Tempo: ${song.bpm} BPM</p>
@@ -975,7 +961,8 @@ function displaySongDetails(song) {
    `;
 }
 
-
-
+// Event listener for search bar
 searchBar.addEventListener("input", displaySongs);
-displaySongs(); // Initial display
+
+// Initial display
+displaySongs();}
