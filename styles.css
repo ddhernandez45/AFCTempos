@@ -1,0 +1,56 @@
+/* Flexbox layout for the overall content */
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+}
+
+.content-container {
+   flex: 1; /* Takes the available vertical space */
+   display: flex;
+}
+
+/* Styling for the header */
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+
+/* Styling for the song list container */
+#songListContainer {
+   width: 300px;
+   padding: 20px;
+   border-right: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+/* Styling for the song list */
+#songList {
+   list-style: none;
+   padding: 0;
+}
+
+/* Styling for individual song containers */
+.song-container {
+   padding: 10px;
+   border: 1px solid #ccc;
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+/* Styling for the song details section */
+#songDetails {
+   padding: 20px;
+   overflow: hidden; /* Clear float */
+}
+
+/* Styling for the footer */
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #333;
+   color: #fff;
+}
