@@ -3,20 +3,16 @@ const songs = [
       title: "When I Speak Your Name",
       bpm: 70,
       timeSignature: "4/4"
-      artist: "",
-
    },
    {
       title: "Your Grace Is Enough",
       bpm: 120,
       timeSignature: "4/4"
-      artist: "",
    },
    {
       title: "Yours Glory and Praise",
       bpm: 70,
       timeSignature: "4/4"
-      artist: "",
    },
    {
       title: "One God",
@@ -32,43 +28,36 @@ const songs = [
       title: "Overcame",
       bpm: 144,
       timeSignature: "6/8"
-      artist: "Jeremey Camp",
    },
    {
       title: "Higher",
       bpm: 97,
       timeSignature: "4/4"
-      artist: "",
    },
    {
       title: "Thank You Jesus For The Blood",
       bpm: 61,
       timeSignature: "4/4"
-      artist: "Charity Gale",
    },
    {
       title: "Hosanna",
       bpm: 73,
       timeSignature: "4/4"
-      artist: "James Wilson",
    },
    {
       title: "Glory to Glory",
       bpm: 88,
       timeSignature: "4/4"
-      artist: "Fred Hammond",
    },
    {
       title: "Speak To The Mountain",
       bpm: 113,
       timeSignature: "4/4"
-      artist: "",
    },
    {
       title: "Throne Room",
       bpm: 156,
       timeSignature: "6/8"
-      artist: "",
    },
    {
       title: "Lion And The Lamb",
@@ -99,7 +88,6 @@ const songs = [
       title: "I Speak Jesus",
       bpm: 74,
       timeSignature: "4/4"
-      artist: "Charity Gale",
    },
    {
       title: "Build Your Church",
@@ -150,7 +138,6 @@ const songs = [
       title: "Endless Praise",
       bpm: 50,
       timeSignature: "6/8"
-      artist: "Charity Gale",
    },
    {
       title: "Trading My Sorrows",
@@ -181,7 +168,6 @@ const songs = [
       title: "Good Medley",
       bpm: 148,
       timeSignature: "4/4"
-      artist: "Eddie James",
    },
      {
       title: "We Rise",
@@ -212,13 +198,11 @@ const songs = [
       title: "Echo (In Jesus Name)",
       bpm: 144,
       timeSignature: "4/4"
-      artist: "Charity Gale",
    },
    {
       title: "Breakthrough",
       bpm: 147,
       timeSignature: "4/4"
-      artist: "Eddie James",
    },
    {
       title: "I Am Forgiven",
@@ -259,7 +243,6 @@ const songs = [
       title: "Psalms 23 IBC",
       bpm: 123,
       timeSignature: "4/4"
-      artist: "IBC",
    },
    {
       title: "Yours",
@@ -455,7 +438,6 @@ const songs = [
       title: "Joy",
       bpm: 130,
       timeSignature: "4/4"
-      artist: "Eddie James",
    },
    {
       title: "Leave Me Astounded",
@@ -541,7 +523,6 @@ const songs = [
       title: "Great Is His Faithfulness",
       bpm: 45,
       timeSignature: "6/8"
-      artist: "Charity Gale",
    },
    {
       title: "I’m Not Ashamed",
@@ -627,7 +608,6 @@ const songs = [
       title: "Not to us",
       bpm: 136,
       timeSignature: "4/4"
-      artist: "IBC"
    },
    {
       title: "More, Holy Spirit",
@@ -648,7 +628,6 @@ const songs = [
       title: "My God fights for me",
       bpm: 70,
       timeSignature: 6/8,
-      artist: "People and Songs",
    },
    {
       title: "Breakthrough",
@@ -663,7 +642,7 @@ const songs = [
    {
       title: "All Because Of Jesus",
       bpm: 132,
-      timeSignature: ""
+      timeSignature: "4/4"
    },
    {
       title: "Overcome",
@@ -809,8 +788,6 @@ const songs = [
       title: "You Are Good",
       bpm: 68,
       timeSignature: "4/4"
-      artist: "Kari Job",
-
    },
    {
       title: "Mercy Seat",
@@ -841,7 +818,6 @@ const songs = [
       title: "Holy Ghost",
       bpm: 79,
       timeSignature: "4/4"
-      artist: "Maverick City",
    },
    {
       title: "My All (Lord I Praise Your Name)",
@@ -862,13 +838,11 @@ const songs = [
       title: "You’re Doing It All Again",
       bpm: 131,
       timeSignature: "4/4"
-      artist: "Todd Dulaney",
    },
    {
       title: "Release The Sound",
       bpm: 72,
       timeSignature: "4/4"
-      artist: "Tasha Cobs",
    },
    {
       title: "Silent Night (holy)",
@@ -884,14 +858,11 @@ const songs = [
       title: "Fire",
       bpm: 150,
       timeSignature: "4/4"
-      artist: "Eddie James",
-
    },
    {
       title: "Worthy",
       bpm: 150,
       timeSignature: "3/4"
-      artist: "Eddie James",
    },
    {
       title: "Revivals In The Air",
