@@ -13,7 +13,7 @@ body {
 
 /* Styling for the header */
 header {
-   background-color: #333;
+   background-color: #4c0000;
    color: #fff;
    padding: 10px;
    text-align: center;
@@ -59,22 +59,43 @@ header {
 footer {
    text-align: center;
    padding: 10px;
-   background-color: #333;
+   background-color: #4c0000;
    color: #fff;
 }
 
 /* Styling for the "Clear" button */
 #clearButton {
-   background-color: #555;
-   color: #fff;
    border: none;
-   padding: 8px 16px;
+   background: none;
+   color: #333; /* Text color */
+   font-size: 14px;
    cursor: pointer;
-   transition: background-color 0.3s;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid #333;
+   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 #clearButton:hover {
    background-color: #333;
+   color: #fff;
+   border-color: #333;
 }
 
+/* Styling for the search bar */
+#searchBar {
+   padding: 4px;
+   height: 10px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+   font-size: 10px;
+   width: 50%;
+   transition: box-shadow 0.3s;
+}
+
+#searchBar:focus {
+   outline: none;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 /* Created By: Destiny Hernandez */
