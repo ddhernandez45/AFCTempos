@@ -210,7 +210,7 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Breakthrough",
+      title: "Breakthrough - EJ",
       bpm: 147,
       timeSignature: "4/4"
    },
@@ -505,11 +505,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Anything Is Possible / Won’t Stop Now",
-      bpm: 122,
-      timeSignature: "4/4"
-   },
-   {
       title: "Like a Fire",
       bpm: 78,
       timeSignature: "4/4"
@@ -630,18 +625,13 @@ const songs = [
       timeSignature: "6/8",
    },
    {
-      title: "Breakthrough",
+      title: "Breakthrough - RRW",
       bpm: 95,
       timeSignature: "4/4"
    },
    {
       title: "Awesome",
       bpm: 128,
-      timeSignature: "4/4"
-   },
-   {
-      title: "All Because Of Jesus",
-      bpm: 132,
       timeSignature: "4/4"
    },
    {
@@ -855,7 +845,11 @@ const songDetails = document.getElementById("songDetails");
 function displaySongs() {
    songList.innerHTML = "";
    const searchTerm = searchBar.value.toLowerCase();
-   songs.forEach(song => {
+
+   // Sort the songs alphabetically by title
+   const sortedSongs = songs.slice().sort((a, b) => a.title.localeCompare(b.title));
+
+   sortedSongs.forEach(song => {
       if (
          song.title.toLowerCase().includes(searchTerm) ||
          song.bpm.toString().includes(searchTerm)
@@ -879,3 +873,5 @@ function displaySongDetails(song) {
 
 searchBar.addEventListener("input", displaySongs);
 displaySongs(); // Initial display
+
+// Created By: Destiny Hernandez 
