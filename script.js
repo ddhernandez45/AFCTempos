@@ -20,7 +20,7 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Yours Glory and Praise",
+      title: "Yours (Glory and Praise)",
       bpm: 70,
       timeSignature: "4/4"
    },
@@ -175,11 +175,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Good Medley",
-      bpm: 148,
-      timeSignature: "4/4"
-   },
-   {
       title: "We Rise",
       bpm: 132,
       timeSignature: "4/4"
@@ -188,11 +183,6 @@ const songs = [
       title: "Your Great Name",
       bpm: 103,
       timeSignature: "4/4"
-   },
-   {
-      title: "King of Glory",
-      bpm: 82,
-      timeSignature: "6/8"
    },
    {
       title: "Hallelujah to Your Name",
@@ -245,11 +235,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Yours",
-      bpm: 70,
-      timeSignature: "4/4"
-   },
-   {
       title: "Do It Again",
       bpm: 86,
       timeSignature: "4/4"
@@ -292,11 +277,6 @@ const songs = [
    {
       title: "From The Inside Out",
       bpm: 69,
-      timeSignature: "4/4"
-   },
-   {
-      title: "So Will I",
-      bpm: 64,
       timeSignature: "4/4"
    },
    {
@@ -355,11 +335,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Shout with a Voice of Triumph",
-      bpm: 103,
-      timeSignature: "4/4"
-   },
-   {
       title: "Enter The Gates",
       bpm: 92,
       timeSignature: "4/4"
@@ -412,11 +387,6 @@ const songs = [
    {
       title: "No One Higher",
       bpm: 72,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Stones",
-      bpm: 76,
       timeSignature: "4/4"
    },
    {
@@ -635,9 +605,9 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Overcome",
-      bpm: 48,
-      timeSignature: "6/8"
+      title: "Overcomer",
+      bpm: 114,
+      timeSignature: "4/4"
    },
    {
       title: "Nothing But The Blood",
@@ -780,11 +750,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Worthy",
-      bpm: 150,
-      timeSignature: "3/4"
-   },
-   {
       title: "Revivals In The Air",
       bpm: 127,
       timeSignature: "6/8"
@@ -839,6 +804,7 @@ const songs = [
 ];
 
 const searchBar = document.getElementById("searchBar");
+const clearButton = document.getElementById("clearButton");
 const songList = document.getElementById("songList");
 const songDetails = document.getElementById("songDetails");
 
@@ -865,13 +831,22 @@ function displaySongs() {
 function displaySongDetails(song) {
    songDetails.innerHTML = `
       <h2>${song.title}</h2>
-      <p>Tempo: ${song.bpm} BPM</p>
+      <p>BPM: ${song.bpm} </p>
       <p>Time Signature: ${song.timeSignature}</p>
       <!-- Add more details if needed -->
    `;
+   // Scroll back to the top of the page
+   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 searchBar.addEventListener("input", displaySongs);
+
+// Event listener for the Clear button
+clearButton.addEventListener("click", () => {
+   searchBar.value = ""; // Clear the search bar
+   displaySongs(); // Update the displayed songs
+});
+
 displaySongs(); // Initial display
 
 // Created By: Destiny Hernandez 
