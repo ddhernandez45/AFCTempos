@@ -1,5 +1,14 @@
-// Array of songs
 const songs = [
+   {
+      title: "Good Medley IBC",
+      bpm: 148,
+      timeSignature: "4/4"
+   },
+   {
+      title: "In the river",
+      bpm: 118,
+      timeSignature: "4/4"
+   },
    {
       title: "When I Speak Your Name",
       bpm: 70,
@@ -211,16 +220,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "In The River",
-      bpm: 118,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Kingdom Overcome",
-      bpm: 70,
-      timeSignature: "4/4"
-   },
-   {
       title: "Surrounded",
       bpm: 74,
       timeSignature: "4/4"
@@ -242,7 +241,7 @@ const songs = [
    },
    {
       title: "Psalms 23 IBC",
-      bpm: 123,
+      bpm: 128,
       timeSignature: "4/4"
    },
    {
@@ -346,7 +345,7 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Psalms 23",
+      title: "Psalms 23 - P&S",
       bpm: 63,
       timeSignature: "4/4"
    },
@@ -486,8 +485,18 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "You Are Good",
-      bpm: 128,
+      title: "Your Presence Is Heaven",
+      bpm: 142,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Great I Am",
+      bpm: 78,
+      timeSignature: "4/4"
+   },
+   {
+      title: "You Are Good KJ",
+      bpm: 68,
       timeSignature: "4/4"
    },
    {
@@ -546,11 +555,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Mercy Seat",
-      bpm: "", // Add BPM here if available
-      timeSignature: "4/4"
-   },
-   {
       title: "Here On Earth",
       bpm: 178,
       timeSignature: "4/4"
@@ -559,11 +563,6 @@ const songs = [
       title: "Kingdom Come",
       bpm: 70,
       timeSignature: "4/4"
-   },
-   {
-      title: "Ancient Of Days",
-      bpm: "", // Add BPM here if available
-      timeSignature: "" // Add time signature here if available
    },
    {
       title: "When You Walk Into The Room",
@@ -628,7 +627,7 @@ const songs = [
    {
       title: "My God fights for me",
       bpm: 70,
-      timeSignature: 6/8,
+      timeSignature: "6/8",
    },
    {
       title: "Breakthrough",
@@ -701,11 +700,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Psalms 23",
-      bpm: 128,
-      timeSignature: "4/4"
-   },
-   {
       title: "Great Jehovah",
       bpm: 100,
       timeSignature: "4/4"
@@ -721,11 +715,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Awesome",
-      bpm: 128,
-      timeSignature: "4/4"
-   },
-   {
       title: "Friend Of God",
       bpm: 127,
       timeSignature: "4/4"
@@ -734,66 +723,6 @@ const songs = [
       title: "All Because Of Jesus",
       bpm: 132,
       timeSignature: "4/4"
-   },
-   {
-      title: "Overcome",
-      bpm: 48,
-      timeSignature: "6/8"
-   },
-   {
-      title: "Nothing But The blood",
-      bpm: 80,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Glorious Day",
-      bpm: 110,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Same God",
-      bpm: 73,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Never lost",
-      bpm: 56,
-      timeSignature: "6/8"
-   },
-   {
-      title: "In the name",
-      bpm: "82",
-      timeSignature: "4/4"
-   },
-   {
-      title: "Hark the Herald",
-      bpm: 109,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Psalms 23",
-      bpm: 128,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Your Presence Is Heaven",
-      bpm: 142,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Great I Am",
-      bpm: 78,
-      timeSignature: "4/4"
-   },
-   {
-      title: "You Are Good",
-      bpm: 68,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Mercy Seat",
-      bpm: "", // Add BPM here if available
-      timeSignature: ""
    },
    {
       title: "Better Is One Day",
@@ -848,7 +777,7 @@ const songs = [
    {
       title: "Silent Night (holy)",
       bpm: 86,
-      timeSignature: "3/4"
+      timeSignature: "6/8"
    },
    {
       title: "Jesus Our Victory",
@@ -868,7 +797,7 @@ const songs = [
    {
       title: "Revivals In The Air",
       bpm: 127,
-      timeSignature: "4/4"
+      timeSignature: "6/8"
    },
    {
       title: "King Of Glory",
@@ -915,43 +844,30 @@ const songs = [
       bpm: 104,
       timeSignature: "4/4"
    },
-
-   // Add more songs in the same format here
+      // Add more songs in the same format
+   // ...
 ];
 
-// DOM elements
 const searchBar = document.getElementById("searchBar");
 const songList = document.getElementById("songList");
 const songDetails = document.getElementById("songDetails");
 
-// Display songs based on search
 function displaySongs() {
    songList.innerHTML = "";
    const searchTerm = searchBar.value.toLowerCase();
    songs.forEach(song => {
       if (
-         song.title.toLowerCase().includes(searchTerm)
+         song.title.toLowerCase().includes(searchTerm) ||
          song.bpm.toString().includes(searchTerm)
-     ) {
-         const container = document.createElement("div");
-         container.classList.add("song-container");
-
-         const songTitle = document.createElement("h3");
-         songTitle.textContent = song.title;
-
-         const songDetails = document.createElement("p");
-         songDetails.innerHTML = `Tempo: ${song.bpm} BPM<br>Time Signature: ${song.timeSignature}`;
-
-         container.appendChild(songTitle);
-         container.appendChild(songDetails);
-
-         container.addEventListener("click", () => displaySongDetails(song));
-         songList.appendChild(container);
+      ) {
+         const li = document.createElement("li");
+         li.textContent = song.title;
+         li.addEventListener("click", () => displaySongDetails(song));
+         songList.appendChild(li);
       }
    });
+}
 
-
-// Display selected song details
 function displaySongDetails(song) {
    songDetails.innerHTML = `
       <h2>${song.title}</h2>
@@ -961,8 +877,5 @@ function displaySongDetails(song) {
    `;
 }
 
-// Event listener for search bar
 searchBar.addEventListener("input", displaySongs);
-
-// Initial display
-displaySongs();}
+displaySongs(); // Initial display
