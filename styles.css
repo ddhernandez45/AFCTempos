@@ -19,6 +19,23 @@ header {
    text-align: center;
 }
 
+/* Animation for the header text */
+header h1 {
+   color: transparent; /* Set text color to transparent */
+   animation: fadeInText 1s ease-in-out forwards; /* Apply animation to the h1 element */
+}
+
+@keyframes fadeInText {
+   from {
+      color: transparent; /* Start with transparent text */
+      transform: translateY(-20px);
+   }
+   to {
+      color: #fff; /* Gradually change to white text */
+      transform: translateY(0);
+   }
+}   
+
 /* Styling for the music symbol */
 .music-symbol {
    font-size: 24px; /* Adjust the size as needed */
