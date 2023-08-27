@@ -799,6 +799,72 @@ const songs = [
       bpm: 104,
       timeSignature: "4/4"
    },
+   {
+      title: "What a Mighty God We Serve (Old)",
+      bpm: 168,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Here As In Heaven",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Worthy Is Your Name - CeCe",
+      bpm: 130,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Heaven - DY",
+      bpm: 110,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Amen",
+      bpm: 106,
+      timeSignature: "4/4"
+   },
+   {
+      title: "New Name Written Down In Glory",
+      bpm: 98,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Let The Heavens Open",
+      bpm: 64,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Arise(You Are Good)",
+      bpm: 107,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Thank God",
+      bpm: 130,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Jehovah - Elevation",
+      bpm: 100,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Jesus - DY",
+      bpm: 164,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Famous For",
+      bpm: 86,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Child Of God - DY",
+      bpm: 125,
+      timeSignature: "4/4"
+   },
+
       // Add more songs in the same format
    // ...
 ];
