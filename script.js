@@ -1,11 +1,13 @@
 const songs = [
    {
-      title: "Good Medley IBC",
+      title: "Good Medley",
+      artist: "Eddie James",
       bpm: 148,
       timeSignature: "4/4"
    },
    {
       title: "In the river",
+      artist: "Jesus Culture",
       bpm: 118,
       timeSignature: "4/4"
    },
@@ -16,6 +18,7 @@ const songs = [
    },
    {
       title: "Your Grace Is Enough",
+      artist: "Chris Tomlin",
       bpm: 120,
       timeSignature: "4/4"
    },
@@ -36,6 +39,7 @@ const songs = [
    },
    {
       title: "Overcame",
+      artist: "Jeremey Camp",
       bpm: 144,
       timeSignature: "6/8"
    },
@@ -46,16 +50,19 @@ const songs = [
    },
    {
       title: "Thank You Jesus For The Blood",
+      artist: "Charity Gale",
       bpm: 61,
       timeSignature: "4/4"
    },
    {
       title: "Hosanna",
+      artist: "James Wilson",
       bpm: 73,
       timeSignature: "4/4"
    },
    {
       title: "Glory to Glory",
+      artist: "Fred Hammond",
       bpm: 88,
       timeSignature: "4/4"
    },
@@ -66,6 +73,7 @@ const songs = [
    },
    {
       title: "Throne Room",
+      artist: "Charity Gale",
       bpm: 156,
       timeSignature: "6/8"
    },
@@ -76,6 +84,7 @@ const songs = [
    },
    {
       title: "Moving Forward",
+      artist: "Israel Houghton",
       bpm: 140,
       timeSignature: "4/4"
    },
@@ -91,11 +100,13 @@ const songs = [
    },
    {
       title: "Worthy",
+      artist: "Eddie James",
       bpm: 150,
       timeSignature: "3/4"
    },
    {
       title: "I Speak Jesus",
+      artist: "Charity Gale",
       bpm: 74,
       timeSignature: "4/4"
    },
@@ -146,11 +157,13 @@ const songs = [
    },
    {
       title: "Endless Praise",
+      artist: "Charity Gale",
       bpm: 50,
       timeSignature: "6/8"
    },
    {
       title: "Trading My Sorrows",
+      artist: "Israel Houghton",
       bpm: 122,
       timeSignature: "4/4"
    },
@@ -171,6 +184,7 @@ const songs = [
    },
    {
       title: "Hallelujah Chant",
+      artist: "Eddie James",
       bpm: 95,
       timeSignature: "4/4"
    },
@@ -196,11 +210,13 @@ const songs = [
    },
    {
       title: "Echo (In Jesus Name)",
+      artist: "Charity Gale",
       bpm: 144,
       timeSignature: "4/4"
    },
    {
-      title: "Breakthrough - EJ",
+      title: "Breakthrough",
+      artist: "Eddie James",
       bpm: 147,
       timeSignature: "4/4"
    },
@@ -216,6 +232,7 @@ const songs = [
    },
    {
       title: "Freedom",
+      artist: "Jesus Culture",
       bpm: 124,
       timeSignature: "4/4"
    },
@@ -230,7 +247,8 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Psalms 23 IBC",
+      title: "Psalms 23",
+      artist: "Eddie James",
       bpm: 128,
       timeSignature: "4/4"
    },
@@ -241,11 +259,13 @@ const songs = [
    },
    {
       title: "King Of My Heart",
+      artist: "Bethel",
       bpm: 136,
       timeSignature: "4/4"
    },
    {
       title: "Again I Say Rejoice",
+      artist: "Israel Houghton",
       bpm: 133,
       timeSignature: "4/4"
    },
@@ -256,11 +276,13 @@ const songs = [
    },
    {
       title: "Reckless Love",
+      artist: "Cory Asbury",
       bpm: 83,
       timeSignature: "6/8"
    },
    {
       title: "Build My Life",
+      artist: "Passion",
       bpm: 70,
       timeSignature: "4/4"
    },
@@ -281,21 +303,25 @@ const songs = [
    },
    {
       title: "In Jesus Name",
+      artist: "Darlene Zschech",
       bpm: 105,
       timeSignature: "4/4"
    },
    {
       title: "Victors Crown",
+      artist: "Darlene Zschech",
       bpm: 74,
       timeSignature: "4/4"
    },
    {
       title: "Break Every Chain",
+      artist: "Jesus Culture",
       bpm: 68,
       timeSignature: "4/4"
    },
    {
       title: "Spirit Break Out",
+      artist: "Jesus Culture",
       bpm: 74,
       timeSignature: "4/4"
    },
@@ -325,7 +351,8 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Psalms 23 - P&S",
+      title: "Psalms 23",
+      artist: "People and Songs",
       bpm: 63,
       timeSignature: "4/4"
    },
@@ -336,6 +363,7 @@ const songs = [
    },
    {
       title: "Enter The Gates",
+      artist: "Bryan & Katie Torwalt",
       bpm: 92,
       timeSignature: "4/4"
    },
@@ -351,16 +379,19 @@ const songs = [
    },
    {
       title: "We Praise Your Name",
+      artist: "Trent Cory",
       bpm: 145,
       timeSignature: "4/4"
    },
    {
       title: "Holy Ground",
+      artist: "Passion",
       bpm: 72,
       timeSignature: "4/4"
    },
    {
       title: "Sing Sing Sing",
+      artist: "Chris Tomlin",
       bpm: 145,
       timeSignature: "4/4"
    },
@@ -371,6 +402,7 @@ const songs = [
    },
    {
       title: "Raise a Hallelujah",
+      artist: "Bethel",
       bpm: 82,
       timeSignature: "4/4"
    },
@@ -381,6 +413,7 @@ const songs = [
    },
    {
       title: "Famous For",
+      artist: "Tauren Wells",
       bpm: 86,
       timeSignature: "4/4"
    },
@@ -391,31 +424,37 @@ const songs = [
    },
    {
       title: "Holy Spirit",
+      artist: "Jesus Culture",
       bpm: 72,
       timeSignature: "4/4"
    },
    {
       title: "How Majestic",
+      artist: "Kari Jobe",
       bpm: 70,
       timeSignature: "4/4"
    },
    {
       title: "The Anthem",
+      artist: "Planetshakers",
       bpm: 76,
       timeSignature: "4/4"
    },
    {
       title: "Joy",
+      artist: "Eddie James",
       bpm: 130,
       timeSignature: "4/4"
    },
    {
       title: "Leave Me Astounded",
+      artist: "Planetshakers",
       bpm: 77,
       timeSignature: "4/4"
    },
    {
       title: "Standing",
+      artist: "William McDowell",
       bpm: 87,
       timeSignature: "4/4"
    },
@@ -426,36 +465,43 @@ const songs = [
    },
    {
       title: "Every Praise",
+      artist: "Hezekiah Walker",
       bpm: 103,
       timeSignature: "4/4"
    },
    {
       title: "What a Beautiful Name",
+      artist: "Hillsong",
       bpm: 136,
       timeSignature: "4/4"
    },
    {
       title: "No Other Name",
+      artist: "Freddy Rodriguez",
       bpm: 130,
       timeSignature: "4/4"
    },
    {
       title: "The Blessing",
+      artist: "Kari Jobe",
       bpm: 70,
       timeSignature: "4/4"
    },
    {
       title: "Spirit Of The Living God",
+      artist: "Vertical Worship",
       bpm: 134,
       timeSignature: "4/4"
    },
    {
       title: "More Than Anything",
+      artist: "Lamar Campbell",
       bpm: 95,
       timeSignature: "4/4"
    },
    {
       title: "Your Presence Is Heaven",
+      artist: "Israel Houghton",
       bpm: 142,
       timeSignature: "4/4"
    },
@@ -465,7 +511,8 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "You Are Good KJ",
+      title: "You Are Good",
+      artist: "Kari Jobe",
       bpm: 68,
       timeSignature: "4/4"
    },
@@ -476,11 +523,13 @@ const songs = [
    },
    {
       title: "Like a Fire",
+      artist: "Planetshakers",
       bpm: 78,
       timeSignature: "4/4"
    },
    {
       title: "Everlasting God",
+      artist: "William Murphy",
       bpm: 84,
       timeSignature: "4/4"
    },
@@ -491,6 +540,7 @@ const songs = [
    },
    {
       title: "Anything Can Happen",
+      artist: "Mark Crowder",
       bpm: 78,
       timeSignature: "4/4"
    },
@@ -501,11 +551,13 @@ const songs = [
    },
    {
       title: "I’m Not Ashamed",
-      bpm: 159,
-      timeSignature: "4/4"
+      artist: "Free Chapel-Ricardo Sanchez",
+      bpm: 80,
+      timeSignature: "6/8"
    },
    {
       title: "Goodness Of God",
+      artist: "Cece Winans",
       bpm: 126,
       timeSignature: "4/4"
    },
@@ -516,41 +568,48 @@ const songs = [
    },
    {
       title: "Open Up The Heavens",
+      artist: "Meredith Andrews",
       bpm: 100,
       timeSignature: "4/4"
    },
    {
       title: "Here On Earth",
+      artist: "First Church",
       bpm: 178,
       timeSignature: "4/4"
    },
    {
       title: "Kingdom Come",
+      artist: "Covenant Worship",
       bpm: 70,
       timeSignature: "4/4"
    },
    {
       title: "When You Walk Into The Room",
+      artist: "Bryan & Katie Torwalt",
       bpm: 72,
       timeSignature: "4/4"
    },
    {
-      title: "Shake the foundations",
+      title: "Shake The Foundations",
       bpm: 133,
       timeSignature: "4/4"
    },
    {
-      title: "Heaven on earth",
+      title: "Heaven On Earth",
+      artist: "IBC",
       bpm: 165,
       timeSignature: "6/8"
    },
    {
       title: "Nothing else",
+      artist: "Cody Carnes",
       bpm: 68,
       timeSignature: "6/8"
    },
    {
       title: "Lord You Are Good",
+      artist: "Israel Houghton",
       bpm: 128,
       timeSignature: "4/4"
    },
@@ -576,6 +635,7 @@ const songs = [
    },
    {
       title: "More, Holy Spirit",
+      artist: "Covenant Worship",
       bpm: 72,
       timeSignature: "4/4"
    },
@@ -616,11 +676,13 @@ const songs = [
    },
    {
       title: "Glorious Day",
+      artist: "Passion",
       bpm: 110,
       timeSignature: "4/4"
    },
    {
       title: "Same God",
+      artist: "Elevation Worship",
       bpm: 73,
       timeSignature: "4/4"
    },
@@ -676,6 +738,7 @@ const songs = [
    },
    {
       title: "Friend Of God",
+      artist: "Israel Houghton",
       bpm: 127,
       timeSignature: "4/4"
    },
@@ -786,6 +849,7 @@ const songs = [
    },
    {
       title: "Mighty God",
+      artist: "OLD",
       bpm: 105,
       timeSignature: "4/4"
    },
@@ -801,11 +865,13 @@ const songs = [
    },
    {
       title: "What a Mighty God We Serve (Old)",
+      artist: "Hymn",
       bpm: 168,
       timeSignature: "4/4"
    },
    {
       title: "Here As In Heaven",
+      artist: "Elevation Worship",
       bpm: 70,
       timeSignature: "4/4"
    },
@@ -815,17 +881,20 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Heaven - DY",
+      title: "Heaven",
+      artist: "Draylin Young",
       bpm: 110,
       timeSignature: "4/4"
    },
    {
       title: "Amen",
+      artist: "Charity Gale",
       bpm: 106,
       timeSignature: "4/4"
    },
    {
       title: "New Name Written Down In Glory",
+      artist: "Charity Gale",
       bpm: 98,
       timeSignature: "4/4"
    },
@@ -845,12 +914,14 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Jehovah - Elevation",
+      title: "Jehovah",
+      artist: "Elevation Worship",
       bpm: 100,
       timeSignature: "4/4"
    },
    {
-      title: "Jesus - DY",
+      title: "Jesus",
+      artist: "Draylin Young",
       bpm: 164,
       timeSignature: "4/4"
    },
@@ -860,7 +931,8 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Child Of God - DY",
+      title: "Child Of God",
+      artist: "Draylin Young",
       bpm: 125,
       timeSignature: "4/4"
    },
@@ -897,7 +969,8 @@ function displaySongs() {
 function displaySongDetails(song) {
    songDetails.innerHTML = `
       <h2>${song.title}</h2>
-      <p>BPM: ${song.bpm} </p>
+      <p>Artist: ${song.artist}</p>
+      <p>BPM: ${song.bpm}</p>
       <p>Time Signature: ${song.timeSignature}</p>
       <!-- Add more details if needed -->
    `;
