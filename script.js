@@ -24,6 +24,7 @@ const songs = [
    },
    {
       title: "Yours (Glory and Praise)",
+      artist: "Elevation Worship",
       bpm: 70,
       timeSignature: "4/4"
    },
@@ -122,6 +123,7 @@ const songs = [
    },
    {
       title: "Anything is Possible",
+      artist: "Bethel",
       bpm: 122,
       timeSignature: "4/4"
    },
@@ -174,6 +176,7 @@ const songs = [
    },
    {
       title: "The Glory Is Yours",
+      artist: "Elevation Worship",
       bpm: 78,
       timeSignature: "4/4"
    },
@@ -195,6 +198,7 @@ const songs = [
    },
    {
       title: "Your Great Name",
+      artist: "Todd Dulaney",
       bpm: 103,
       timeSignature: "4/4"
    },
@@ -205,6 +209,7 @@ const songs = [
    },
    {
       title: "Only King Forever",
+      artist: "Elevation Worship",
       bpm: 138,
       timeSignature: "4/4"
    },
@@ -238,6 +243,7 @@ const songs = [
    },
    {
       title: "Way Maker",
+      artist: "Sinach",
       bpm: 132,
       timeSignature: "4/4"
    },
@@ -293,11 +299,13 @@ const songs = [
    },
    {
       title: "Our God",
+      artist: "Chris Tomlin",
       bpm: 105,
       timeSignature: "4/4"
    },
    {
       title: "From The Inside Out",
+      artist: "Hillsong",
       bpm: 69,
       timeSignature: "4/4"
    },
@@ -342,12 +350,8 @@ const songs = [
    },
    {
       title: "Defend Us",
+      artist: "Jessica DiGiovanni",
       bpm: 80,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Glory is Yours",
-      bpm: 139,
       timeSignature: "4/4"
    },
    {
@@ -460,6 +464,7 @@ const songs = [
    },
    {
       title: "Whose Report Will You Believe",
+      artist: "CCC",
       bpm: 122,
       timeSignature: "4/4"
    },
@@ -535,6 +540,7 @@ const songs = [
    },
    {
       title: "Come Out Of That Grave/Rattle",
+      artist: "Elevation Worship",
       bpm: 72,
       timeSignature: "4/4"
    },
@@ -615,11 +621,13 @@ const songs = [
    },
    {
       title: "Sing a New Song",
+      artist: "BJ Putnam",
       bpm: 126,
       timeSignature: "4/4"
    },
    {
       title: "Blessed be your name",
+      artist: "Chris Tomlin",
       bpm: 130,
       timeSignature: "4/4"
    },
@@ -630,6 +638,7 @@ const songs = [
    },
    {
       title: "Not to us",
+      artist: "Chris Tomlin",
       bpm: 136,
       timeSignature: "4/4"
    },
@@ -656,6 +665,7 @@ const songs = [
    },
    {
       title: "Breakthrough - RRW",
+      artist: "Red Rocks Worship",
       bpm: 95,
       timeSignature: "4/4"
    },
@@ -666,6 +676,7 @@ const songs = [
    },
    {
       title: "Overcomer",
+      artist: "Eddie James",
       bpm: 114,
       timeSignature: "4/4"
    },
@@ -718,16 +729,19 @@ const songs = [
    },
    {
       title: "Too Good To Not Believe",
+      artist: "Brandon Lake & Cody Carnes",
       bpm: 72,
       timeSignature: "4/4"
    },
    {
       title: "Great Jehovah",
+      artist: "JJ Harrison",
       bpm: 100,
       timeSignature: "4/4"
    },
    {
       title: "So Will I",
+      artist: "Hillsong",
       bpm: 128,
       timeSignature: "4/4"
    },
@@ -769,6 +783,7 @@ const songs = [
    },
    {
       title: "Holy Ghost",
+      artist: "Maverick City",
       bpm: 79,
       timeSignature: "4/4"
    },
@@ -789,6 +804,7 @@ const songs = [
    },
    {
       title: "You’re Doing It All Again",
+      artist: "Todd Dulaney",
       bpm: 131,
       timeSignature: "4/4"
    },
@@ -809,16 +825,19 @@ const songs = [
    },
    {
       title: "Fire",
+      artist: "Eddie James",
       bpm: 150,
       timeSignature: "4/4"
    },
    {
       title: "Revivals In The Air",
+      artist: "Bethel",
       bpm: 127,
       timeSignature: "6/8"
    },
    {
       title: "King Of Glory",
+      artist: "Todd Dulaney",
       bpm: 159,
       timeSignature: "6/8"
    },
@@ -876,7 +895,8 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "Worthy Is Your Name - CeCe",
+      title: "Worthy Is Your Name",
+      artist: "Cece Winans",
       bpm: 130,
       timeSignature: "4/4"
    },
