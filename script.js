@@ -118,6 +118,7 @@ const songs = [
    },
    {
       title: "Hineh Ma Tov",
+      artist: "James Wilson",
       bpm: 130,
       timeSignature: "4/4"
    },
@@ -129,11 +130,13 @@ const songs = [
    },
    {
       title: "Total Praise",
+      artist: "Richard Smallwood",
       bpm: 48,
       timeSignature: "4/4"
    },
    {
       title: "Deliverer",
+      artist: "North Point Worship",
       bpm: 72,
       timeSignature: "4/4"
    },
@@ -261,6 +264,21 @@ const songs = [
    {
       title: "Do It Again",
       bpm: 86,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Say So",
+      bpm: 148,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Unthinkable",
+      bpm: 68,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Because Of You",
+      bpm: 140,
       timeSignature: "4/4"
    },
    {
@@ -966,6 +984,10 @@ const clearButton = document.getElementById("clearButton");
 const songList = document.getElementById("songList");
 const songDetails = document.getElementById("songDetails");
 
+// Pagination variables
+const songsPerPage = 20;
+let currentPage = 1;
+
 function displaySongs() {
    songList.innerHTML = "";
    const searchTerm = searchBar.value.toLowerCase();
@@ -973,29 +995,87 @@ function displaySongs() {
    // Sort the songs alphabetically by title
    const sortedSongs = songs.slice().sort((a, b) => a.title.localeCompare(b.title));
 
-   sortedSongs.forEach(song => {
-      if (
-         song.title.toLowerCase().includes(searchTerm) ||
-         song.bpm.toString().includes(searchTerm)
-      ) {
-         const li = document.createElement("li");
-         li.textContent = song.title;
-         li.addEventListener("click", () => displaySongDetails(song));
-         songList.appendChild(li);
-      }
-   });
+   // Filter songs based on search term
+   const filteredSongs = sortedSongs.filter((song) =>
+      song.title.toLowerCase().includes(searchTerm) ||
+      song.bpm.toString().includes(searchTerm)
+   );
+
+   // Calculate the total number of pages
+   const totalPageCount = Math.ceil(filteredSongs.length / songsPerPage);
+
+   // Ensure the current page is within bounds
+   if (currentPage < 1) {
+      currentPage = 1;
+   } else if (currentPage > totalPageCount) {
+      currentPage = totalPageCount;
+   }
+
+   // Calculate the start and end indexes for the current page
+   const startIndex = (currentPage - 1) * songsPerPage;
+   const endIndex = Math.min(startIndex + songsPerPage, filteredSongs.length);
+
+   // Display songs for the current page
+   for (let i = startIndex; i < endIndex; i++) {
+      const song = filteredSongs[i];
+      const li = document.createElement("li");
+      li.textContent = song.title;
+      li.addEventListener("click", () => displaySongDetails(song));
+      songList.appendChild(li);
+   }
+
+   // Update pagination controls
+   generatePagination(totalPageCount);
 }
 
 function displaySongDetails(song) {
    songDetails.innerHTML = `
       <h2>${song.title}</h2>
-      <p>Artist: ${song.artist}</p>
-      <p>BPM: ${song.bpm}</p>
-      <p>Time Signature: ${song.timeSignature}</p>
+      <p>Artist: ${song.artist || 'Unknown'}</p>
+      <p>BPM: ${song.bpm || 'N/A'}</p>
+      <p>Time Signature: ${song.timeSignature || 'N/A'}</p>
       <!-- Add more details if needed -->
    `;
    // Scroll back to the top of the page
    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function generatePagination(totalPageCount) {
+   const paginationContainer = document.getElementById("pagination");
+   paginationContainer.innerHTML = "";
+
+   // Create "Previous" button if not on the first page
+   if (currentPage > 1) {
+      const prevButton = document.createElement("button");
+      prevButton.textContent = "Previous";
+      prevButton.addEventListener("click", () => {
+         currentPage--;
+         displaySongs();
+      });
+      paginationContainer.appendChild(prevButton);
+   }
+
+   // Create page number buttons
+   for (let i = 1; i <= totalPageCount; i++) {
+      const pageButton = document.createElement("button");
+      pageButton.textContent = i;
+      pageButton.addEventListener("click", () => {
+         currentPage = i;
+         displaySongs();
+      });
+      paginationContainer.appendChild(pageButton);
+   }
+
+   // Create "Next" button if not on the last page
+   if (currentPage < totalPageCount) {
+      const nextButton = document.createElement("button");
+      nextButton.textContent = "Next";
+      nextButton.addEventListener("click", () => {
+         currentPage++;
+         displaySongs();
+      });
+      paginationContainer.appendChild(nextButton);
+   }
 }
 
 searchBar.addEventListener("input", displaySongs);
@@ -1003,9 +1083,11 @@ searchBar.addEventListener("input", displaySongs);
 // Event listener for the Clear button
 clearButton.addEventListener("click", () => {
    searchBar.value = ""; // Clear the search bar
+   currentPage = 1; // Reset to the first page
    displaySongs(); // Update the displayed songs
 });
 
 displaySongs(); // Initial display
+
 
 // Created By: Destiny Hernandez 
