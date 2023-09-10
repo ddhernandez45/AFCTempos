@@ -142,8 +142,9 @@ const songs = [
    },
    {
       title: "I will be undignified",
+      artist: "Rend Collective",
       bpm: 168,
-      timeSignature: ""
+      timeSignature: "6/8"
    },
    {
       title: "We Bless The Name",
