@@ -13,13 +13,13 @@ const songs = [
    },
    {
       title: "When I Speak Your Name",
-      artist: "Gateway Worship"
+      artist: "Gateway Worship",
       bpm: 70,
       timeSignature: "4/4"
    },
    {
       title: "When I Think About The Lord",
-      artist: "UPCI"
+      artist: "UPCI",
       bpm: 56,
       timeSignature: "4/4"
    },
@@ -60,7 +60,7 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "4. Set a Fire",
+      title: "Set a Fire",
       artist: "Will Reagan",
       bpm: 131,
       timeSignature: "4/4"
@@ -72,7 +72,7 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "2. Hands to The Heavens",
+      title: "Hands to The Heavens",
       artist: "Kari Jobe",
       bpm: 105,
       timeSignature: "4/4"
