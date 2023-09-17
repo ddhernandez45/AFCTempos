@@ -13,7 +13,68 @@ const songs = [
    },
    {
       title: "When I Speak Your Name",
+      artist: "Gateway Worship"
       bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "When I Think About The Lord",
+      artist: "UPCI"
+      bpm: 56,
+      timeSignature: "4/4"
+   },
+   {
+      title: "The Welcome Song",
+      artist: "Pocket Full Of Rocks",
+      bpm: 115,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Wrap Me In Your Arms",
+      artist: "Freddy Rodriguez",
+      bpm: 73,
+      timeSignature: "4/4"
+   },
+   {
+      title: "At The Cross",
+      artist: "Hillsong",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Like a Fire",
+      artist: "Planetshakers",
+      bpm: 78,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Garment of Praise",
+      artist: "First Pentecostal Church of North Little Rock",
+      bpm: 116,
+      timeSignature: "4/4"
+   },
+   {
+      title: "God Is",
+      artist: "New Birth Total Praise Choir",
+      bpm: 117,
+      timeSignature: "4/4"
+   },
+   {
+      title: "4. Set a Fire",
+      artist: "Will Reagan",
+      bpm: 131,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Let It Rain",
+      artist: "Jesus Culture",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "2. Hands to The Heavens",
+      artist: "Kari Jobe",
+      bpm: 105,
       timeSignature: "4/4"
    },
    {
@@ -303,6 +364,12 @@ const songs = [
       title: "Reckless Love",
       artist: "Cory Asbury",
       bpm: 83,
+      timeSignature: "6/8"
+   },
+   {
+      title: "Here In Your Presence",
+      artist: "New Life Worship",
+      bpm: 70,
       timeSignature: "6/8"
    },
    {
