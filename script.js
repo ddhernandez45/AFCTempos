@@ -752,7 +752,7 @@ const songs = [
    {
       title: "Breakthrough - RRW",
       artist: "Red Rocks Worship",
-      bpm: 95,
+      bpm: 90,
       timeSignature: "4/4"
    },
    {
