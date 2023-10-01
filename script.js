@@ -18,6 +18,18 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "I Give Myself Away",
+      artist: "William McDowell",
+      bpm: 62,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Just Came To Tell You",
+      artist: "old",
+      bpm: 138,
+      timeSignature: "4/4"
+   },
+   {
       title: "When I Think About The Lord",
       artist: "UPCI",
       bpm: 56,
