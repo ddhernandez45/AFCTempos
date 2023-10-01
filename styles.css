@@ -84,7 +84,7 @@ header h1 {
 
 /* Details container styles */
 #songDetails {
-   width: 200px; /* Set a fixed width */
+   width: 300px; /* Set a fixed width */
    border: 1px solid transparent; /* Make the border transparent */
    padding: 20px;
    box-sizing: border-box;
