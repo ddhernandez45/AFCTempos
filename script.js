@@ -84,18 +84,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "",
-      artist: "",
-      bpm: ,
-      timeSignature: "4/4"
-   },
-   {
-      title: "",
-      artist: "",
-      bpm: ,
-      timeSignature: "4/4"
-   },
-   {
       title: "In the river",
       artist: "Jesus Culture",
       bpm: 118,
