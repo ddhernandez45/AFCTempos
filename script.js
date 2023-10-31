@@ -6,6 +6,96 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Holy Lord",
+      artist: "Ron Kenoly",
+      bpm: 72,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Made Me Glad",
+      artist: "old",
+      bpm: 80,
+      timeSignature: "4/4"
+   },
+   {
+      title: "You Have Made Me Glad",
+      artist: "Charity Gale",
+      bpm: 113,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Just Came To Tell You",
+      artist: "",
+      bpm: 138,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Give Myself Away",
+      artist: "William McDowell",
+      bpm: 62,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Lifter",
+      artist: "Ricky Dillard",
+      bpm: 76,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Trust in God",
+      artist: "",
+      bpm: 74,
+      timeSignature: "6/8"
+   },
+   {
+      title: "Whisper His Name",
+      artist: "",
+      bpm: 120,
+      timeSignature: "4/4"
+   },
+   {
+      title: "In The Sanctuary",
+      artist: "Kurt Carr",
+      bpm: 111,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Great Are You Lord",
+      artist: "Passion",
+      bpm: 74,
+      timeSignature: "6/8"
+   },
+   {
+      title: "Here I am To Worship",
+      artist: "Hillsong",
+      bpm: 65,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Hallelujah For The Cross",
+      artist: "Heart of Worship Ministries",
+      bpm: 74,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Hope Will Raise",
+      artist: "Warr Acers",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "",
+      artist: "",
+      bpm: ,
+      timeSignature: "4/4"
+   },
+   {
+      title: "",
+      artist: "",
+      bpm: ,
+      timeSignature: "4/4"
+   },
+   {
       title: "In the river",
       artist: "Jesus Culture",
       bpm: 118,
