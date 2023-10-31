@@ -13,7 +13,7 @@ const songs = [
    },
    {
       title: "Made Me Glad",
-      artist: "old",
+      artist: "Old",
       bpm: 80,
       timeSignature: "4/4"
    },
@@ -43,7 +43,7 @@ const songs = [
    },
    {
       title: "I Trust in God",
-      artist: "",
+      artist: "Elevation Worship",
       bpm: 74,
       timeSignature: "6/8"
    },
