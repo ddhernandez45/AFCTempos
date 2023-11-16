@@ -24,6 +24,30 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Lord I Lift Your Name On High",
+      artist: "Old",
+      bpm: 82,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Mercy Seat",
+      artist: "",
+      bpm: 125,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I Give You Worship",
+      artist: "",
+      bpm: 145,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Great Are You Lord (We Adore You)",
+      artist: "",
+      bpm: 160,
+      timeSignature: "4/4"
+   },
+   {
       title: "I Just Came To Tell You",
       artist: "",
       bpm: 138,
