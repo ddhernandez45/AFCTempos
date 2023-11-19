@@ -12,6 +12,24 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Fear is Not My Future ",
+      artist: "Tosha Cobbs",
+      bpm: 69,
+      timeSignature: "4/4"
+   },
+   {
+      title: "He's in the Room",
+      artist: "David Jennings",
+      bpm: 75,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Build it Up",
+      artist: "Jonathan Hudof",
+      bpm: 120,
+      timeSignature: "4/4"
+   },
+   {
       title: "Made Me Glad",
       artist: "Old",
       bpm: 80,
