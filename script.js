@@ -12,6 +12,24 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Glory",
+      artist: "Eddie James",
+      bpm: 134,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Rain",
+      artist: "",
+      bpm: 78,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Worshipping You",
+      artist: "",
+      bpm: 73,
+      timeSignature: "4/4"
+   },
+   {
       title: "Fear is Not My Future ",
       artist: "Tosha Cobbs",
       bpm: 69,
