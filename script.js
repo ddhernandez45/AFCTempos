@@ -24,6 +24,12 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Hark",
+      artist: "Hillsong",
+      bpm: 134,
+      timeSignature: "6/8"
+   },
+   {
       title: "Worshipping You",
       artist: "",
       bpm: 73,
