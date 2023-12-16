@@ -12,6 +12,18 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Just Keep Praising Him",
+      artist: "Old",
+      bpm: 150,
+      timeSignature: "4/4"
+   },
+   {
+      title: "You Are Holy (Prince of Peace)",
+      artist: "Michael W. Smith",
+      bpm: 104,
+      timeSignature: "4/4"
+   },
+   {
       title: "Glory",
       artist: "Eddie James",
       bpm: 134,
