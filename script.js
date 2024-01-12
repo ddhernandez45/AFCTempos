@@ -12,6 +12,36 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "We Bow Down",
+      artist: "n/a",
+      bpm: 123,
+      timeSignature: "4/4"
+   },
+   {
+      title: "The More I Seek You",
+      artist: "n/a",
+      bpm: 62,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Nothing Is Impossible",
+      artist: "Planetshakers",
+      bpm: 140,
+      timeSignature: "4/4"
+   },
+   {
+      title: "We've Come To Praise Him",
+      artist: "n/a",
+      bpm: 100,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Worthy Is Your Name",
+      artist: "Cece Winans",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
       title: "Just Keep Praising Him",
       artist: "Old",
       bpm: 150,
@@ -1107,7 +1137,7 @@ const songs = [
    },
    {
       title: "The Revelation Song",
-      bpm: 62,
+      bpm: 65,
       timeSignature: "4/4"
    },
    {
