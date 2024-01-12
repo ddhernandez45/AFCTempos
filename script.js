@@ -4,12 +4,14 @@ const songs = [
       artist: "Eddie James",
       bpm: 148,
       timeSignature: "4/4"
+      youtubeLink: "https://youtu.be/rBlBPsgFwjc?si=vS-Ec2gH9o8DssaZhttps://youtu.be/rBlBPsgFwjc?si=vS-Ec2gH9o8DssaZhttps://youtu.be/rBlBPsgFwjc?si=vS-Ec2gH9o8DssaZhttps://youtu.be/rBlBPsgFwjc?si=vS-Ec2gH9o8DssaZ"
    },
    {
       title: "Holy Lord",
       artist: "Ron Kenoly",
       bpm: 72,
       timeSignature: "4/4"
+      youtubeLink: "YOUR_YOUTUBE_LINK_HERE"
    },
    {
       title: "We Bow Down",
