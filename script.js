@@ -18,6 +18,12 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "We Need You Lord/Whisper Him Name",
+      artist: "n/a",
+      bpm: 110,
+      timeSignature: "4/4"
+   },
+   {
       title: "The More I Seek You",
       artist: "n/a",
       bpm: 62,
@@ -865,7 +871,7 @@ const songs = [
    {
       title: "Here On Earth",
       artist: "First Church",
-      bpm: 178,
+      bpm: 78,
       timeSignature: "4/4"
    },
    {
@@ -939,7 +945,7 @@ const songs = [
    },
    {
       title: "House Of prayer/Bethel",
-      bpm: 126,
+      bpm: 140,
       timeSignature: "4/4"
    },
    {
