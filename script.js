@@ -12,6 +12,42 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Jesus At The Center",
+      artist: "Israel Houghton",
+      bpm: 66,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Praise",
+      artist: "Elevation Worship",
+      bpm: 127,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Isaiah Song",
+      artist: "",
+      bpm: 51,
+      timeSignature: "6/8"
+   },
+   {
+      title: "The Lord's Prayer",
+      artist: "Todd Dulaney",
+      bpm: 162,
+      timeSignature: "6/8"
+   },
+   {
+      title: "In The Room",
+      artist: "Maverick City",
+      bpm: 104,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Better Than Good",
+      artist: "Todd Galberth",
+      bpm: 90,
+      timeSignature: "4/4"
+   },
+   {
       title: "We Bow Down",
       artist: "n/a",
       bpm: 123,
@@ -230,7 +266,7 @@ const songs = [
    {
       title: "The Welcome Song",
       artist: "Pocket Full Of Rocks",
-      bpm: 115,
+      bpm: 120,
       timeSignature: "4/4"
    },
    {
