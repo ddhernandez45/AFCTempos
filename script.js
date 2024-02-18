@@ -13,7 +13,7 @@ const songs = [
    },
    {
       title: "Psalms 34",
-      artist: "",
+      artist: "n/a",
       bpm: 120,
       timeSignature: "4/4"
    },
