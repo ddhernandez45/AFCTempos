@@ -12,6 +12,18 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Psalms 34",
+      artist: "",
+      bpm: 120,
+      timeSignature: "4/4"
+   }
+   {
+      title: "Worthy of It All",
+      artist: "Cece Winans",
+      bpm: 71,
+      timeSignature: "4/4"
+   }
+   {
       title: "Jesus At The Center",
       artist: "Israel Houghton",
       bpm: 66,
