@@ -12,6 +12,72 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "Ancient of Days",
+      artist: "Ron Kenoly",
+      bpm: 90,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Yahweh Se Manifestara",
+      artist: "Oasis Ministry",
+      bpm: 69,
+      timeSignature: "4/4"
+   },
+   {
+      title: "In the Room",
+      artist: "Maverick City",
+      bpm: 104,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Not Worried",
+      artist: "Pentecostals of Katy",
+      bpm: 80,
+      timeSignature: "4/4"
+   },
+   {
+      title: "The Blood Still Works",
+      artist: "Malcome Williams",
+      bpm: 108,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Lord I Give You My Heart",
+      artist: "",
+      bpm: 70,
+      timeSignature: "4/4"
+   },
+   {
+      title: "David Danced",
+      artist: "",
+      bpm: 115,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Walls",
+      artist: "",
+      bpm: 75,
+      timeSignature: "4/4"
+   },
+   {
+      title: "I need You To Survive",
+      artist: "Hezekiah Walker",
+      bpm: 79,
+      timeSignature: "4/4"
+   },
+   {
+      title: "When God Shows Up",
+      artist: "Draylin Young",
+      bpm: 115,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Cry Out",
+      artist: "Refresh Worship",
+      bpm: 78,
+      timeSignature: "4/4"
+   },
+   {
       title: "Psalms 34",
       artist: "n/a",
       bpm: 120,
@@ -354,7 +420,7 @@ const songs = [
    {
       title: "Overcame",
       artist: "Jeremey Camp",
-      bpm: 144,
+      bpm: 154,
       timeSignature: "6/8"
    },
    {
