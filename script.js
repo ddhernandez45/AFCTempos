@@ -283,12 +283,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "I Just Came To Tell You",
-      artist: "",
-      bpm: 138,
-      timeSignature: "4/4"
-   },
-   {
       title: "I Give Myself Away",
       artist: "William McDowell",
       bpm: 62,
@@ -376,12 +370,6 @@ const songs = [
       title: "At The Cross",
       artist: "Hillsong",
       bpm: 70,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Like a Fire",
-      artist: "Planetshakers",
-      bpm: 78,
       timeSignature: "4/4"
    },
    {
