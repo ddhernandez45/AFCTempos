@@ -24,12 +24,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "In the Room",
-      artist: "Maverick City",
-      bpm: 104,
-      timeSignature: "4/4"
-   },
-   {
       title: "Not Worried",
       artist: "Pentecostals of Katy",
       bpm: 80,
@@ -364,12 +358,6 @@ const songs = [
       title: "I Just Came To Tell You",
       artist: "old",
       bpm: 138,
-      timeSignature: "4/4"
-   },
-   {
-      title: "When I Think About The Lord",
-      artist: "UPCI",
-      bpm: 56,
       timeSignature: "4/4"
    },
    {
@@ -1327,12 +1315,6 @@ const songs = [
       title: "Here As In Heaven",
       artist: "Elevation Worship",
       bpm: 70,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Worthy Is Your Name",
-      artist: "Cece Winans",
-      bpm: 130,
       timeSignature: "4/4"
    },
    {
