@@ -54,6 +54,43 @@ const songs = [
       timeSignature: "4/4"
    },
    {
+      title: "O Come To The Altar",
+      artist: "Elevation Worship",
+      bpm: 70,
+      timeSignature: "6/8"
+   },
+   {
+      title: "Dancing Generation",
+      artist: "",
+      bpm: 145,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Praisin For The Victory/Can't Stop",
+      artist: "",
+      bpm: 145,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Forever",
+      artist: "Kari Jobe",
+      bpm: 72,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Healer",
+      artist: "Kari Jobe",
+      bpm: 78,
+      timeSignature: "4/4"
+   },
+   {
+      title: "Celebrate the King",
+      artist: "Ricky Dillard",
+      bpm: 120,
+      timeSignature: "4/4"
+   },
+
+   {
       title: "Walls",
       artist: "",
       bpm: 75,
@@ -728,7 +765,7 @@ const songs = [
    {
       title: "Break Every Chain",
       artist: "Jesus Culture",
-      bpm: 68,
+      bpm: 70,
       timeSignature: "4/4"
    },
    {
@@ -1283,7 +1320,7 @@ const songs = [
    },
    {
       title: "Bless The Lord He Endureth Forever",
-      bpm: 104,
+      bpm: 108,
       timeSignature: "4/4"
    },
    {
