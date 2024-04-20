@@ -361,12 +361,6 @@ const songs = [
       timeSignature: "4/4"
    },
    {
-      title: "I Give Myself Away",
-      artist: "William McDowell",
-      bpm: 62,
-      timeSignature: "4/4"
-   },
-   {
       title: "I Just Came To Tell You",
       artist: "old",
       bpm: 138,
@@ -1384,11 +1378,6 @@ const songs = [
       title: "Jesus",
       artist: "Draylin Young",
       bpm: 164,
-      timeSignature: "4/4"
-   },
-   {
-      title: "Famous For",
-      bpm: 86,
       timeSignature: "4/4"
    },
    {
